@@ -1,0 +1,60 @@
+*{padding:0;margin:0;font-size:14px}
+li{list-style:none;}
+img{border:none 0;}
+a{text-decoration:none}
+
+body{
+    width:100vw; margin:0 auto;
+}
+/*summary screen*/
+.summaryTop {
+    height:60vh; background:#fefef4; overflow:hidden;
+}
+.summaryAvatar {
+    margin:52px 55px 68px 80px; float:left;
+}
+.summaryBasic {
+    margin:52px 0px 68px 0px; float:left;
+}
+.summaryBasic .basicBox {
+    overflow:hidden;
+}
+.summaryBasic .name {
+    float:left; font-size:42px; font-family:冬青黑体简体中文; color:#474747;
+}
+.summaryBasic .loc {
+    float:left; margin-left:38px; margin-top:14px; font-size:24px; color:#474747;
+}
+.summaryBasic .company {
+    margin-top:24px; font-size:24px; color:#e3585d;
+}
+.summaryBasic .intro {
+    margin-top:14px; font-size:14px; color:#474747;
+}
+.summaryButtom {
+    height:40vh; background:#e8eae9; padding-top:18px;
+}
+.summaryButtom .expTitle {
+    margin-left:62px; font-size:24px; color:#98a89e;
+}
+.summaryButtom .jobExp {
+    overflow:hidden; 
+}
+.summaryButtom .jobExp .job {
+    float:left; margin:40px 42px 70px 47px; color:#98a89e; font-size:18px;
+}
+.job .jobTitle {
+    margin-left:16px; 
+}
+.job .jobDetail {
+    overflow:hidden; margin-top:8px; 
+}
+.job .jobDetail div{
+    float:left; 
+}
+.job .jobDetail .detailNum {
+    font-size:52px; margin-left:12px; margin-top:18px;
+}
+.job .jobDetail .detailYear {
+    margin-top:46px; margin-left:4px; 
+}
