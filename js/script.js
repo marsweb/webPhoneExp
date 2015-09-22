@@ -8,5 +8,17 @@ for (var j=0; j<resizes.length; j++) {
 	resizes[j].style.left=parseInt(resizes[j].style.left)*scaleW+'px'; 
 }
 var mySwiper = new Swiper ('.swiper-container', {
-	direction: 'vertical'
+	direction: 'vertical',
+	  //virtualTranslate : true,
+   mousewheelControl : true,
+   onInit: function(swiper){
+   swiperAnimateCache(swiper);
+   swiperAnimate(swiper);
+	  },
+   onSlideChangeEnd: function(swiper){
+	swiperAnimate(swiper);
+    },
+	onTransitionEnd: function(swiper){
+	swiperAnimate(swiper);
+    },
 })

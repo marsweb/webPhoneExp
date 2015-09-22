@@ -18,8 +18,25 @@ html,body{
 img{
 	display:block;
 }
-/* section1 */
+/* sections */
 .section1{
 	background: url(../images/s1bg.png) no-repeat center center;
 	background-size:100% 100%;
 }
+.section2{
+	background: url(../images/s2bg.png) no-repeat center center;
+	background-size:100% 100%;
+}
+.section3{
+	background: url(../images/s3bg.png) no-repeat center center;
+	background-size:100% 100%;
+}
+.section4{
+	background: url(../images/s4bg.png) no-repeat center center;
+	background-size:100% 100%;
+}
+.section5{
+	background: url(../images/s5bg.png) no-repeat center center;
+	background-size:100% 100%;
+}
+
